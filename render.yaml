@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: finpilot-frontend
+    env: static
+    buildCommand: cd Frontend && npm install && npm run build
+    publishPath: Frontend/dist
+    branch: main
