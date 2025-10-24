@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: finpilot-frontend
+    name: fintech-frontend
     env: static
+    branch: main
     buildCommand: cd Frontend && npm install && npm run build
     publishPath: Frontend/dist
-    branch: main
