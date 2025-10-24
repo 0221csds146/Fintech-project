@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Chatbot.css";
+import "./ChatBot.css";
 
 const Assistant = () => {
   const [query, setQuery] = useState("");
